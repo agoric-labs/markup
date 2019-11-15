@@ -1,3 +1,5 @@
-#!/usr/bin/env node --experimental-modules --loader @smotaal.io/markup
+#!/usr/bin/env node --experimental-modules
 
-import('@smotaal.io/markup');
+// NOTE: .mjs signals to Node.js to always treat this file as ESM
+
+import "./packages/markup/benchmarks/benchmark.js";
